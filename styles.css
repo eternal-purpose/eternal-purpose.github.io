@@ -1,17 +1,54 @@
-.row {
+body, html {
+    height: 100%;
+}
+
+.columnsWrapper {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
 }
 
-.column {
+.column, .sectionHeader {
     display: flex;
     flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.memberBios .columnsWrapper .column {
+    flex-basis: 250px;
+    min-width: 210px;
+}
+
+.column {
+    padding: 0 30px;
+}
+
+.bandMemberBioPic {
+    max-width: 150px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.video {
+
+}
+
+.blue-column {
+    background-color: blue;
+}
+  
+.green-column {
+    background-color: green;
 }
 
 .page-wrapper {
     margin: 15px;
+    max-width: 1200px;
 }
