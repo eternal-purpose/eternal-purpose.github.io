@@ -1,8 +1,121 @@
-body, html {
-    height: 100%;
+* { /* reset default browser styles */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* content is auto-sized, width/height incudes margins & padding */
 }
 
-.columnsWrapper {
+/* chrome only */
+/* html {
+    scroll-behavior: smooth;
+} */
+
+body {
+    font-family: "Helvetica", "Arial", sans-serif;
+    color: #5e6063
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+img { /* all images fit their containers, instead of bleeding over */
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.page { /* the root container of all elements */
+    display: flex;
+    flex-direction: column; /* stack the child elements vertically */
+    align-items: center; /* center child elements horizontally */
+    
+    width: 900px;
+    margin: 0px auto; /* center horizontally in the browser window */
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    
+    width: 100%;
+    padding: 20px 0;
+
+    border: 1px solid black;
+    color: #fff;
+    background-color: #5995DA;
+}
+  
+.menu {
+    display: flex;
+    justify-content: space-between;
+    
+    width: 100%;
+    margin: 0 20px;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.singles {
+    margin-left: 20px;
+}
+
+.hero {}
+
+.band {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+}
+
+.biographies {
+    display: flex;
+    justify-content: space-between;
+}
+
+.band-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 20px;
+}
+
+.bio-pic {
+    width: 200px;
+}
+
+.bio-text {
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    
+    width: 100%;
+    padding: 20px 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+
+    width: 100%;
+}
+
+.copyright {
+    margin-left: 20px;
+    font-style: italic;
+}
+
+/* .columnsWrapper {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -46,9 +159,4 @@ body, html {
   
 .green-column {
     background-color: green;
-}
-
-.page-wrapper {
-    margin: 15px;
-    max-width: 1200px;
-}
+} */
