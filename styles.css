@@ -57,7 +57,7 @@ img { /* all images fit their containers, instead of bleeding over */
     justify-content: flex-end;
 }
 
-.links .singles {
+.link-item {
     margin-left: 20px;
 }
 
@@ -75,7 +75,7 @@ img { /* all images fit their containers, instead of bleeding over */
 .section-title {
     display: flex;
     justify-content: center;
-    
+
     padding: 20px;
 }
 
