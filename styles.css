@@ -33,7 +33,7 @@ img { /* all images fit their containers, instead of bleeding over */
     flex-direction: column; /* stack the child elements vertically */
     align-items: center; /* center child elements horizontally */
     
-    width: 900px;
+    width: 90%;
     margin: 0px auto; /* center horizontally in the browser window */
 }
 
@@ -118,21 +118,19 @@ img { /* all images fit their containers, instead of bleeding over */
 
     width: 50%;
     height: auto;
-
-    padding: 10px;
-    background-color: green;
 }
 
 .video {
     flex: 1;
-    position:relative;
-    overflow:hidden;
-    height:0;
-    padding-bottom:56.25%;
+    position: relative;
+    overflow: hidden;
+    
+    height: auto;
 }
 
 .video .iframe {
     position: absolute;
+    
     top: 0;
     left: 0;
     width: 100%;
