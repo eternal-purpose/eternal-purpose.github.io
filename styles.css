@@ -10,20 +10,13 @@ html {
 }
 
 body {
-    font-family: "Helvetica", "Arial", sans-serif;
+    font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
     color: #5e6063
 }
 
 h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', "Helvetica", "Arial", sans-serif;
     font-weight: normal;
-}
-
-h2 {
-    font-family: 'Montserrat', sans-serif;
-}
-
-body {
-    font-family: 'Open Sans', sans-serif;
 }
 
 a {
@@ -33,6 +26,7 @@ a {
 img { /* all images fit their containers, instead of bleeding over */
     width: 100%;
     height: 100%;
+    object-fit: contain;
 }
 
 .page { /* the root container of all elements */
@@ -94,33 +88,47 @@ img { /* all images fit their containers, instead of bleeding over */
 
 .biographies {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
 }
 
 .band-member {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    flex: 1;
-    margin: 0px 20px;
-}
 
-.bio-title {
-    padding-top: 20px;
+    width: 100%;
+    margin: 20px 0;
 }
 
 .bio-pic {
     display: flex;
 
+    min-width: 200px;
     width: 200px;
+    max-width: 200px;
+    height: auto;
     
     border-radius: 6px;
     overflow: hidden;
 }
 
-.bio-text {
+.bio-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
     padding: 20px;
 }
+
+.bio-title {
+    padding-bottom: 20px;
+}
+
+/* .bio-text {
+    display: flex;
+    padding: 20px;
+} */
 
 .singles-container {
     display: flex;
