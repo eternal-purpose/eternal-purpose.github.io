@@ -39,21 +39,17 @@ img { /* all images fit their containers, instead of bleeding over */
 
 .menu-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     
     width: 100%;
-    padding: 20px 0;
-
-    color: #fff;
-    background-color: #5995DA;
+    padding: 20px 20px;
 }
-  
-.menu {
+
+.logo {
     display: flex;
-    justify-content: space-between;
-    
-    flex: 1;
-    margin: 0 20px;
+    max-width: 200px;
+    height: auto;
 }
 
 .links {
@@ -63,6 +59,17 @@ img { /* all images fit their containers, instead of bleeding over */
 
 .links .singles {
     margin-left: 20px;
+}
+
+.hero-container {
+    display: flex;
+
+    width: 100%;
+    height: auto;
+
+    /* border: 1px solid #5e6063; */
+    border-radius: 6px;
+    overflow: hidden;
 }
 
 .band-container {
@@ -86,8 +93,23 @@ img { /* all images fit their containers, instead of bleeding over */
     margin: 0px 20px;
 }
 
+.bio-title {
+    padding-top: 20px;
+}
+
 .bio-pic {
+    display: flex;
+
     width: 200px;
+    height: auto;
+    
+    /* border: 1px solid #5e6063; */
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.bio-text {
+    padding: 20px;
 }
 
 .singles-container {
@@ -109,9 +131,10 @@ img { /* all images fit their containers, instead of bleeding over */
 .video-row {
     display: flex;
     justify-content: space-between;
+    flex: 1;
 
     width: 100%;
-    flex: 1;
+    margin: 20px;
 }
 
 .video-container {
@@ -146,17 +169,20 @@ img { /* all images fit their containers, instead of bleeding over */
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-
     flex: 1;
-    border: 1px solid blue;
+
+    /* border: 1px solid blue; */
 }
 
 .video-text {
     width: 100%;
-    padding: 20px;
 
-    background-color: chartreuse;
-    border: 1px solid green;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    /* background-color: chartreuse;
+    border: 1px solid green; */
 }
 
 .links-container {
@@ -165,8 +191,9 @@ img { /* all images fit their containers, instead of bleeding over */
     align-items: center;
 
     width: 100%;
-    background-color: chartreuse;
-    border: 1px solid green;
+
+    /* background-color: chartreuse;
+    border: 1px solid green; */
 }
 
 .footer-container {
