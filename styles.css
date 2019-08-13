@@ -62,7 +62,7 @@ img { /* all images fit their containers, instead of bleeding over */
     justify-content: flex-end;
 }
 
-.singles {
+.links .singles {
     margin-left: 20px;
 }
 
@@ -88,6 +88,39 @@ img { /* all images fit their containers, instead of bleeding over */
 
 .bio-pic {
     width: 200px;
+}
+
+.singles-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+}
+
+.videos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+}
+
+.video-row {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+.video {
+    display: flex;
+    width: 50%;
+    height: 253px;
+}
+
+.video-text {
+    width: 50%;
 }
 
 .footer-container {
