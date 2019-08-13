@@ -37,7 +37,9 @@ img { /* all images fit their containers, instead of bleeding over */
     align-items: center; /* center child elements horizontally */
     
     width: 900px;
-    margin: 0px auto; /* center horizontally in the browser window */
+    margin-left: auto; /* center horizontally in the browser window */
+    margin-right: auto;
+    margin-bottom: 20px;
 }
 
 .menu-container {
