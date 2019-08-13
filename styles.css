@@ -75,7 +75,7 @@ img { /* all images fit their containers, instead of bleeding over */
     display: flex;
     justify-content: center;
 
-    padding: 20px;
+    padding-top: 20px;
 }
 
 .band-container {
@@ -98,7 +98,7 @@ img { /* all images fit their containers, instead of bleeding over */
     align-items: center;
 
     width: 100%;
-    margin: 20px 0;
+    margin-bottom: 20px;
 }
 
 .bio-pic {
