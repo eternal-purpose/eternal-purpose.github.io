@@ -33,7 +33,7 @@ img { /* all images fit their containers, instead of bleeding over */
     flex-direction: column; /* stack the child elements vertically */
     align-items: center; /* center child elements horizontally */
     
-    width: 90%;
+    width: 900px;
     margin: 0px auto; /* center horizontally in the browser window */
 }
 
