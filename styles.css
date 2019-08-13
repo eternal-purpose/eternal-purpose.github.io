@@ -5,9 +5,9 @@
 }
 
 /* chrome only */
-/* html {
+html {
     scroll-behavior: smooth;
-} */
+}
 
 body {
     font-family: "Helvetica", "Arial", sans-serif;
