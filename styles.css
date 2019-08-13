@@ -72,6 +72,13 @@ img { /* all images fit their containers, instead of bleeding over */
     overflow: hidden;
 }
 
+.section-title {
+    display: flex;
+    justify-content: center;
+    
+    padding: 20px;
+}
+
 .band-container {
     display: flex;
     flex-direction: column;
