@@ -66,8 +66,6 @@ img { /* all images fit their containers, instead of bleeding over */
     margin-left: 20px;
 }
 
-.hero {}
-
 .band {
     display: flex;
     flex-direction: column;
@@ -92,9 +90,6 @@ img { /* all images fit their containers, instead of bleeding over */
     width: 200px;
 }
 
-.bio-text {
-}
-
 .footer-container {
     display: flex;
     justify-content: center;
@@ -114,49 +109,3 @@ img { /* all images fit their containers, instead of bleeding over */
     margin-left: 20px;
     font-style: italic;
 }
-
-/* .columnsWrapper {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-.column, .sectionHeader {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    align-items: center;
-}
-
-.memberBios .columnsWrapper .column {
-    flex-basis: 250px;
-    min-width: 210px;
-}
-
-.column {
-    padding: 0 30px;
-}
-
-.bandMemberBioPic {
-    max-width: 150px;
-}
-
-.hero {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-}
-
-.video {
-
-}
-
-.blue-column {
-    background-color: blue;
-}
-  
-.green-column {
-    background-color: green;
-} */
