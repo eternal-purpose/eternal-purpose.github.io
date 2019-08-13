@@ -44,7 +44,6 @@ img { /* all images fit their containers, instead of bleeding over */
     width: 100%;
     padding: 20px 0;
 
-    border: 1px solid black;
     color: #fff;
     background-color: #5995DA;
 }
@@ -133,12 +132,12 @@ img { /* all images fit their containers, instead of bleeding over */
 
 .footer {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
 
     width: 100%;
 }
 
-.copyright {
+.footer .copyright {
     margin-left: 20px;
     font-style: italic;
 }
