@@ -299,6 +299,15 @@ img {
   font-style: italic;
 }
 
+.privacy-links {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.privacy-policy {
+  margin-right: 20px;
+}
+
 .privacy-hero {
   display: flex;
   border-radius: 6px;

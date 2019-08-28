@@ -18,9 +18,35 @@
   <meta property="og:image:type" content="image/jpeg" />
   <meta property="og:image:width" content="1080" />
   <meta property="og:image:height" content="1080" />
+
+  <script type="text/javascript">
+    cookieValue = document.cookie.match(/(;)?cookiebar=([^;]*);?/)[2];
+    if (cookieValue == 'CookieAllowed') {
+      // The user has allowed cookies, let's load our external services  
+  
+      // Facebook Pixel
+      !function (f, b, e, v, n, t, s) {
+        if (f.fbq) return; n = f.fbq = function () {
+          n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        };
+        if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+        n.queue = []; t = b.createElement(e); t.async = !0;
+        t.src = v; s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s)
+      }(window, document, 'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+      
+      fbq('init', '917181185286965');
+      fbq('track', 'PageView');
+    }
+  </script>
+  
 </head>
 
 <body>
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/cookie-bar/cookiebar-latest.min.js?forceLang=en&theme=grey&tracking=1&thirdparty=1&always=1&noGeoIp=1&refreshPage=1&showPolicyLink=1&hideDetailsBtn=1&privacyPage=%2Fprivacy.html"></script>
 
   <div class="page">
 
@@ -184,7 +210,12 @@
 
     <footer class="footer-container">
       <div class="footer">
+        <div class="privacy-links">
         <div class="privacy-policy"><a href="privacy.html">Privacy Policy</a></div>
+        <div class="cookie-disable">
+          <a href="#" onclick="document.cookie='cookiebar=;expires=Thu, 01 Jan 1970 00:00:01 GMT;path=/'; setupCookieBar(); return false;">Click here to disallow Cookies</a>
+        </div>
+        </div>
         <div class="copyright">Copyright &copy;
           <script type="text/javascript">
             var d = new Date()
