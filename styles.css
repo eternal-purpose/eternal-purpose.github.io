@@ -97,6 +97,10 @@ img.fit-image {
   width: 50%;
 }
 
+.album-text {
+  margin-bottom: 18px;
+}
+
 .album-cover-image {
   border-width: 1px;
   border-style: solid;
